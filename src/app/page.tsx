@@ -45,7 +45,7 @@ export default function Home() {
 
             <TimeLineElement title="Siguenos en nuestras redes sociales" event="13 Febrero de 2025" icon={<IoShareSocialSharp className="text-2xl" />} link="https://awswomencolombia.contactin.bio/" timeIcon={<IoShareSocialSharp />} linkText="Siguenos aquí" step="5. Siguenos" />
 
-            <TimeLineElement title="Completa el plan de estudios" event="Cada semana deberas revisar el link, hacer las actividades, ver los videos o talleres" icon={<FaListCheck className="text-2xl" />} link="https://docs.google.com/spreadsheets/d/1w7yTTDZDIzbZF9T10GCmcLr9tI5hR67PpZD098cDZmA/edit?gid=1950419092#gid=1950419092" timeIcon={<FaListCheck />} linkText="Consulta aquí" step="4. Consulta" />
+            <TimeLineElement title="Completa el plan de estudios" event="Cada semana deberas revisar el link, hacer las actividades, ver los videos o talleres ::  el link del Quiz esta en la columna 'Quiz para puntaje'" icon={<FaListCheck className="text-2xl" />} link="https://docs.google.com/spreadsheets/d/1w7yTTDZDIzbZF9T10GCmcLr9tI5hR67PpZD098cDZmA/edit?gid=1950419092#gid=1950419092" timeIcon={<FaListCheck />} linkText="Consulta aquí" step="4. Consulta" />
 
 
 
