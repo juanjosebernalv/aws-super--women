@@ -1,7 +1,7 @@
 import React from 'react';
 import { VerticalTimelineElement } from 'react-vertical-timeline-component';
 
-const TimeLineElement = ({ title, event, icon, link, timeIcon, linkText, step }: { title: string, event: string, icon: React.ReactNode, link: string, timeIcon: React.ReactNode, linkText: string, step:string }) => {
+const TimeLineElement = ({ title, event, icon, link, timeIcon, linkText, step }: { title: string, event: string, icon: React.ReactNode, link: string, timeIcon: React.ReactNode, linkText: string, step: string }) => {
   return (
     <VerticalTimelineElement
       className="vertical-timeline-element--work"
@@ -13,7 +13,6 @@ const TimeLineElement = ({ title, event, icon, link, timeIcon, linkText, step }:
     >
       <h3 className="vertical-timeline-element-title">{title}</h3>
       <h4 className="vertical-timeline-element-subtitle">{event}</h4>
-
       <a href={link} target='_blank' className='flex gap-4 items-center font-semibold' >
         {linkText} {icon}
       </a>
