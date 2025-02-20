@@ -10,15 +10,13 @@ import { RiWhatsappFill } from "react-icons/ri";
 import { FaLinkedin } from "react-icons/fa";
 import { IoShareSocialSharp } from "react-icons/io5";
 import { FaListCheck } from "react-icons/fa6";
+import { FaBookReader } from "react-icons/fa";
 
 export default function Home() {
+
   return (
 
     <>
-
-
-
-
       <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
         <main className="flex flex-col gap-8 row-start-2 items-center">
           <Image
@@ -45,7 +43,9 @@ export default function Home() {
 
             <TimeLineElement title="Siguenos en nuestras redes sociales" event="13 Febrero de 2025" icon={<IoShareSocialSharp className="text-2xl" />} link="https://awswomencolombia.contactin.bio/" timeIcon={<IoShareSocialSharp />} linkText="Siguenos aquí" step="5. Siguenos" />
 
-            <TimeLineElement title="Completa el plan de estudios" event="Cada semana deberas revisar el link, hacer las actividades, ver los videos o talleres ::  el link del Quiz esta en la columna 'Quiz para puntaje'" icon={<FaListCheck className="text-2xl" />} link="https://docs.google.com/spreadsheets/d/1w7yTTDZDIzbZF9T10GCmcLr9tI5hR67PpZD098cDZmA/edit?gid=1950419092#gid=1950419092" timeIcon={<FaListCheck />} linkText="Consulta aquí" step="4. Consulta" />
+            <TimeLineElement title="Completa el plan de estudios" event="Cada semana deberas revisar el link, hacer las actividades, ver los videos o talleres ::  el link del Quiz esta en la columna 'Quiz para puntaje'" icon={<FaListCheck className="text-2xl" />} link="https://docs.google.com/spreadsheets/d/1w7yTTDZDIzbZF9T10GCmcLr9tI5hR67PpZD098cDZmA/edit?gid=1950419092#gid=1950419092" timeIcon={<FaListCheck />} linkText="Consulta aquí" step="6. Consulta" />
+
+            <TimeLineElement title="Plan de estudios semana 2" event="Estudia por tu cuenta los contenidos de la semana 2" icon={<FaBookReader className="text-2xl" />} link="/week1" timeIcon={<FaBookReader />} linkText="Estudia aquí" step="7. Estudia la semana 2" />
 
 
 
