@@ -2,7 +2,7 @@ import './weeks.css';
 // import { Button, Tooltip } from 'antd';
 // import { IoChevronBackCircle } from "react-icons/io5";
 
-const Week1 = () => {
+const Week2 = () => {
 
   // const router = useRouter();
   // const handleBack = () => {
@@ -60,4 +60,4 @@ const Week1 = () => {
   );
 }
 
-export default Week1;
+export default Week2;

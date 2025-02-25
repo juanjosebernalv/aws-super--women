@@ -45,7 +45,9 @@ export default function Home() {
 
             <TimeLineElement title="Completa el plan de estudios" event="Cada semana deberas revisar el link, hacer las actividades, ver los videos o talleres ::  el link del Quiz esta en la columna 'Quiz para puntaje'" icon={<FaListCheck className="text-2xl" />} link="https://docs.google.com/spreadsheets/d/1w7yTTDZDIzbZF9T10GCmcLr9tI5hR67PpZD098cDZmA/edit?gid=1950419092#gid=1950419092" timeIcon={<FaListCheck />} linkText="Consulta aquí" step="6. Consulta" />
 
-            <TimeLineElement title="Plan de estudios semana 2" event="Estudia por tu cuenta los contenidos de la semana 2" icon={<FaBookReader className="text-2xl" />} link="/week1" timeIcon={<FaBookReader />} linkText="Estudia aquí" step="7. Estudia la semana 2" />
+            <TimeLineElement title="Plan de estudios semana 2" event="Estudia por tu cuenta los contenidos de la semana 2" icon={<FaBookReader className="text-2xl" />} link="/week2" timeIcon={<FaBookReader />} linkText="Estudia aquí" step="7. Estudia la semana 2" />
+
+            <TimeLineElement title="Plan de estudios semana 3" event="Estudia por tu cuenta los contenidos de la semana 3" icon={<FaBookReader className="text-2xl" />} link="/week3" timeIcon={<FaBookReader />} linkText="Estudia aquí" step="8. Estudia la semana 8" />
 
 
 
